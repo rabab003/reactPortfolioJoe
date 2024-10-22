@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# Business Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a portfolio website designed for a business professional. The website features a clean and modern layout with a dark theme and smooth animations. It is built using React, TypeScript, and Vite for a fast, responsive experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Sticky Menu Bar**: A menu bar at the top of the page that remains in place as you scroll for easy navigation.
+- **Sidebar**: A section fixed on the left of the screen, containing navigation links.
+- **Image Section**: A business-related image displayed on the right side of the page.
+- **Main Content Area**: The center of the page contains:
+  - **Name Section**: Introducing the business professional.
+  - **About Section**: A brief overview of the professional's background.
+  - **Services Section**: A list of the services provided.
+  - **Projects Section**: A showcase of completed projects.
+  - **Copyright Section**: Copyright information at the bottom.
+- **Dark Theme**: The entire site is designed with a sleek dark theme.
+- **Animations**: Smooth animations are included to enhance user experience.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: JavaScript library for building the user interface.
+- **TypeScript**: Superset of JavaScript for type-safe development.
+- **Vite**: Fast development environment with HMR (Hot Module Replacement).
+- **CSS Animations**: For smooth transitions and effects.
+- **ESLint**: Linting and formatting to ensure code quality.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+To run this project locally, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/business-portfolio.git
+   cd business-portfolio
